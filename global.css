@@ -42,3 +42,42 @@ footer {
     color: white;
     padding: 18px 0;
 }
+
+/* Pàgina principal */
+.hero {
+    background: #e8eff5;
+    text-align: center;
+    padding: 55px 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.hero h1 { font-size: 34px; margin: 0; }
+.hero p { font-size: 18px; }
+button {
+    background: #bd4f35;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+button:hover { background: #963a24; }
+.colleccions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+.carta {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 22px;
+    border-radius: 6px;
+}
+.carta h3 { margin-top: 0; }
+.carta span {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #e8eff5;
+    border-radius: 4px;
+    font-size: 13px;
+}
