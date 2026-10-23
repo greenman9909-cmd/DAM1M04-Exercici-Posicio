@@ -93,3 +93,34 @@ button:hover { background: #963a24; }
     color: white;
     border-radius: 6px;
 }
+
+/* Página de productos */
+.filtres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 20px 0;
+}
+.filtres a { color: #26364a; }
+.productes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+.producte {
+    flex: 1 1 260px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+}
+.imatge-producte {
+    height: 180px;
+    background: #ddd;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.producte h2 { font-size: 20px; }
+.producte p { font-weight: bold; }
