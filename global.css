@@ -124,3 +124,38 @@ button:hover { background: #963a24; }
 }
 .producte h2 { font-size: 20px; }
 .producte p { font-weight: bold; }
+
+/* Página de contacto */
+.contacto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.caja {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 6px;
+}
+.caja form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.caja input, .caja textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+.caja button { align-self: flex-start; }
+.mapa {
+    height: 190px;
+    background: #ddd;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
